@@ -70,7 +70,7 @@ To quickly store the exploration data, I opted to create an in-memory cache. I g
 ## Running Tests
 To run unit and screenshot tests:
  ```sh
- ./gradlew test
+ ./gradlew testDebugUnitTest
  ```
 ### Files for testing
 [Valid](./sample.json)
