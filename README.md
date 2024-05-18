@@ -87,3 +87,8 @@ To run unit and screenshot tests:
 ## APK
 
 [Release 1.0.0](https://github.com/gcaguilar/MarsRover/releases/tag/1.0.0)
+
+## Functional t
+
+https://github.com/gcaguilar/MarsRover/assets/38892827/c65b45eb-3b39-4ad1-8382-e98f9a5feb7b
+
