@@ -83,3 +83,7 @@ To run unit and screenshot tests:
 - Modularize the project
 - Instead of using an in-memory cache, use some kind of persistence solution (room, datastore...) to allow saving the mission configuration between uses. As well as the different movements...
 - Add more screenshot test
+
+## APK
+
+[Release 1.0.0](https://github.com/gcaguilar/MarsRover/releases/tag/1.0.0)
