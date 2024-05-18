@@ -1,0 +1,58 @@
+[versions]
+agp = "8.4.0"
+kotlin = "1.9.24"
+coreKtx = "1.13.1"
+junit = "4.13.2"
+appcompat = "1.6.1"
+material = "1.12.0"
+lifecycleRuntimeKtx = "2.8.0"
+activityCompose = "1.9.0"
+composeBom = "2024.05.00"
+kotlinXserialization = "1.6.3"
+mockk = "1.13.10"
+turbine = "1.1.0"
+koin = "3.5.6"
+navigationCompose = "2.7.7"
+roborazzi = "1.16.1"
+roboelectric = "4.12.2"
+uiTestJunit4Android = "1.6.7"
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+androidx-ui = { group = "androidx.compose.ui", name = "ui" }
+androidx-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
+kotlin-serialization-json = { group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-json", version.ref = "kotlinXserialization" }
+mockk-android = { group = "io.mockk", name = "mockk-android", version.ref = "mockk" }
+mockk = { group = "io.mockk", name = "mockk", version.ref = "mockk" }
+cashapp-turbine = { group = "app.cash.turbine", name = "turbine", version.ref = "turbine" }
+koin-android = { group = "io.insert-koin", name = "koin-android", version.ref = "koin" }
+koin-androidx-compose = { group = "io.insert-koin", name = "koin-androidx-compose", version.ref = "koin" }
+navigator-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "navigationCompose" }
+roborazzi = { group = "io.github.takahirom.roborazzi", name = "roborazzi", version.ref = "roborazzi" }
+roborazzi-compose = { group = "io.github.takahirom.roborazzi", name = "roborazzi-compose", version.ref = "roborazzi" }
+roborazzi-rule = { group = "io.github.takahirom.roborazzi", name = "roborazzi-junit-rule", version.ref = "roborazzi" }
+robolectric = { group = "org.robolectric", name = "robolectric", version.ref = "roboelectric" }
+androidx-ui-test-junit4-android = { group = "androidx.compose.ui", name = "ui-test-junit4-android", version.ref = "uiTestJunit4Android" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
+roborazzi = { id = "io.github.takahirom.roborazzi", version.ref = "roborazzi" }
+
+[bundles]
+roborazzi = [
+    "robolectric",
+    "roborazzi",
+    "roborazzi-compose",
+    "roborazzi-rule",
+    "androidx-ui-test-junit4-android"
+]

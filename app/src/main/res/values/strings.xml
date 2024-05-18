@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">MarsRover</string>
+    <string name="configure_mission">Configure Mission</string>
+    <string name="start_mission">Start Mission</string>
+    <string name="choose_mission_title">What kind of mission would you like to start?</string>
+    <string name="file_mission_title">File-defined mission</string>
+    <string name="back">Back</string>
+    <string name="choose_your_file">Choose your file</string>
+    <string name="form_file">Form file</string>
+    <string name="manual_input">Manual input</string>
+    <string name="mars_information">Mars information</string>
+    <string name="x_initial_rover_position">X initial Rover position</string>
+    <string name="y_initial_rover_position">Y initial Rover position</string>
+    <string name="exploration_area_information">Exploration area information</string>
+    <string name="x_toprightcorner">X topRightCorner</string>
+    <string name="y_toprightcorner">Y topRightCorner</string>
+    <string name="movement_out_ouf_mission_area">Movement out ouf mission area</string>
+    <string name="invalid_file">The file is invalid or has an incorrect format.</string>
+    <string name="invalid_rover_position">The rover cannot be positioned outside the exploration area.</string>
+    <string name="mission">Mission</string>
+    <string name="turn_left">Turn left</string>
+    <string name="turn_right">Turn right</string>
+    <string name="move">Move</string>
+</resources>
